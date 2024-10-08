@@ -1,0 +1,28 @@
+.alert {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background-color: rgb(30, 30, 30);
+    padding: 8px 16px;
+    font-size: 25px;
+    border-radius: 5px;
+    border: 1px solid rgb(70, 70, 70);
+    z-index: 1000;
+}
+
+/* Responsive design */
+@media(max-width: 768px) {
+    .alert {
+        top: 6px;
+        right: 6px;
+        font-size: 23px;
+    }
+}
+
+@media(max-width: 480px) {
+    .alert {
+        top: 75vh;
+        right: 32vw;
+        font-size: 22px;
+    }
+}
