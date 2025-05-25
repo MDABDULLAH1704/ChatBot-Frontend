@@ -2,7 +2,14 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: black;
-    color: white;
+    background-color: rgb(22, 22, 22);
+    color: rgb(220, 220, 220);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+:root {
+    --bg-color1: rgb(25, 25, 25);
+    --bg-color2: rgb(35, 35, 35);
+    --bg-color3: rgb(42, 42, 42);
+    --text-color1: rgb(220, 220, 220);
 }

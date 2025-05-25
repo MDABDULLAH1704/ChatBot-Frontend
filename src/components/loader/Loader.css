@@ -1,0 +1,20 @@
+.loaderContainer {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.loader {
+    width: 24px;
+    height: 24px;
+    border: 3px solid rgb(200, 200, 200);
+    border-top: 3px solid rgb(0, 98, 255);
+    border-radius: 50%;
+    animation: spin 0.5s linear infinite;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}

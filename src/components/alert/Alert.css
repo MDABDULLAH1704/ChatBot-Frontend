@@ -2,11 +2,12 @@
     position: fixed;
     top: 10px;
     right: 10px;
-    background-color: rgb(30, 30, 30);
+    background-color: rgb(150, 150, 150);
+    color: black;
     padding: 8px 16px;
     font-size: 25px;
     border-radius: 5px;
-    border: 1px solid rgb(70, 70, 70);
+    border: 2px solid green;
     z-index: 1000;
 }
 
@@ -21,8 +22,7 @@
 
 @media(max-width: 480px) {
     .alert {
-        top: 75vh;
-        right: 32vw;
+        background-color: rgb(200, 200, 200);
         font-size: 22px;
     }
 }

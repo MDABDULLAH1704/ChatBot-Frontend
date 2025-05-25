@@ -1,0 +1,7 @@
+.copyBtn {
+    background-color: rgb(60, 60, 60);
+    color: var(--text-color1);
+    padding: 2px 8px;
+    border: none;
+    border-radius: 2px;
+}

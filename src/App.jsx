@@ -1,12 +1,14 @@
 import React from 'react'
 import './App.css'
-import TextGenerator from './components/textGenerator/TextGenerator'
+import ChatBot from './components/chatBot/ChatBot'
+import Navbar from './components/navbar/Navbar'
 
 function App() {
 
   return (
     <>
-      <TextGenerator />
+      <Navbar />
+      <ChatBot />
     </>
   )
 }

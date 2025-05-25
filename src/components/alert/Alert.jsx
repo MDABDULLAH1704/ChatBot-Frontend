@@ -1,14 +1,15 @@
 import React, { useEffect } from 'react';
-import './Alert.css'; 
+import './Alert.css';
 
-const Alert = ({ message, onClose }) => {
+const Alert = ({ message, onClose, duration = 2000 }) => {
     useEffect(() => {
         const timer = setTimeout(() => {
             onClose();
-        }, 2000); // Remove alert after 2 seconds
+        }, duration);  // Use the duration prop
 
-        return () => clearTimeout(timer); // Cleanup timer on unmount
-    }, [onClose]);
+        return () => clearTimeout(timer);
+    }, [onClose, duration]);
+
 
     return (
         <div className="alert">

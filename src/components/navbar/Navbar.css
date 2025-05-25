@@ -1,0 +1,31 @@
+h1 {
+    text-align: center;
+}
+
+.nav {
+    color: var(--text-color1);
+    font-size: 35px;
+    text-align: center;
+}
+
+@media(max-width: 768px) {
+    .nav {
+        margin-right: 27vw;
+    }
+}
+
+@media(max-width: 480px) {
+    .nav {
+        width: 100%;
+    }
+}
+
+@media(max-width: 380px) {
+    h1 {
+        font-size: 30px;
+    }
+
+    .nav {
+        font-size: 30px;
+    }
+}
